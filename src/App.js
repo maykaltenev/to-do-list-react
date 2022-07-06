@@ -19,9 +19,9 @@ function App() {
     })
     setToDoList(mapped);
   }
-  const handleFilter = () => {
-    let filtered = toDoList.filter(task => {
-      return !task.complete;
+  const handleFilter = (index) => {
+    let filtered = toDoList.filter((_, i) => {
+      return index !== i;
     });
     setToDoList(filtered);
   }

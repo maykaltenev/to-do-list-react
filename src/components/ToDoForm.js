@@ -15,11 +15,11 @@ const ToDoFrom = (props) => {
         setUserInput('');
     }
     return (
-        <div class="container-sm box">
+        <div className="container-sm box">
             <form onSubmit={handleSubmit}>
                 <span>Define your task</span>
-                <input class="form-control form-control-sm" value={userInput} type="text" onChange={handleChange} placeholder="Enter task..." />
-                <button class="btn btn-primary">Submit</button>
+                <input className="form-control form-control-sm" value={userInput} type="text" onChange={handleChange} placeholder="Enter task..." />
+                <button className="btn btn-primary">Submit</button>
             </form>
         </div>
     );
