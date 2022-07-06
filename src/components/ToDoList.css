@@ -1,0 +1,23 @@
+div {
+  font-size: 1rem;
+}
+div {
+  font-size: 1.5rem;
+}
+.listElement {
+  margin-top: 1rem;
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+}
+.buttonsBox {
+  width: 17rem;
+  display: flex;
+  justify-content: space-around;
+}
+.todo {
+  cursor: pointer;
+}
+.strike {
+  text-decoration: line-through;
+}
